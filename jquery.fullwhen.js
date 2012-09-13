@@ -9,7 +9,7 @@
 	 */
 	var // Static reference to slice
 		sliceDeferred = [].slice;
-	$.notBrokenWhen = function( firstParam ) {
+	$.fullWhen = function( firstParam ) {
 		var args = sliceDeferred.call( arguments, 0 ),
 			i = 0,
 			length = args.length,
